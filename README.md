@@ -2,6 +2,8 @@
 
 **Generate an agenda for a Node.js working group based on GitHub issue labels**
 
+[![NPM](https://nodei.co/npm/node-meeting-agenda.png)](https://nodei.co/npm/node-meeting-agenda/)
+
 Given a GitHub label name, generate a Markdown formatted agenda for a meeting where each issue tagged with the label represents an agenda item.
 
 ## Example
