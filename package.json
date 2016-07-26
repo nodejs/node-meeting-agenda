@@ -6,7 +6,7 @@
   "author": "Rod <rod@vagg.org> (http://r.va.gg/)",
   "license": "MIT",
   "dependencies": {
-    "ghauth": "~3.0.0",
+    "ghauth": "~3.2.0",
     "ghissues": "~1.1.2",
     "ghrepos": "~2.0.0",
     "map-async": "~0.1.1"
