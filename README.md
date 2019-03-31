@@ -24,6 +24,18 @@ $ node-meeting-agenda lts-agenda
 * Breaking changes between v0.12.x and next LTS releases cycle [#10](https://github.com/nodejs/LTS/issues/10)
 ```
 
+```text
+$ node-meeting-agenda bootstrap-agenda openjs-foundation # optional second argument for custom org
+### openjs-foundation/bootstrap
+
+* Infrastructure: Mailing lists [#134](https://github.com/openjs-foundation/bootstrap/issues/134)
+* add PROJECT.md file [#132](https://github.com/openjs-foundation/bootstrap/pull/132)
+* Create process for new projects joining foundation [#130](https://github.com/openjs-foundation/bootstrap/issues/130)
+* Review meeting times [#129](https://github.com/openjs-foundation/bootstrap/issues/129)
+* Project Housekeeping: Create Checklist for New Projects / Updating Existing Projects [#121](https://github.com/openjs-foundation/bootstrap/issues/121)
+* Steps to bootstrap CPC and new Foundation [#115](https://github.com/openjs-foundation/bootstrap/issues/115)
+```
+
 ## License
 
 **node-meeting-agenda** is Copyright (c) 2016 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licensed under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
