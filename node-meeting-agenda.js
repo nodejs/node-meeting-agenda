@@ -14,6 +14,7 @@ if (process.argv.length < 3)
   throw new Error('Please supply a label, e.g. `node-meeting-agenda ctc-agenda')
 
 let labels = process.argv[2]
+let org = process.argv[3] || 'nodejs'
 
 
 ghauth(authOptions, (err, authData) => {
@@ -30,11 +31,11 @@ ghauth(authOptions, (err, authData) => {
     )
   }
 
-  ghrepos.listOrg(authData, 'nodejs', { type: 'public' }, (err, repolist) => {
+  ghrepos.listOrg(authData, org, { type: 'public' }, (err, repolist) => {
     if (err)
       throw err
 
-    let ra = repos.concat(repolist.map((r) => ({ org: 'nodejs', repo: r.name })))
+    let ra = repos.concat(repolist.map((r) => ({ org: org, repo: r.name })))
     map(ra, fetchIssues, (err, repoLists) => {
       if (err)
         throw err
