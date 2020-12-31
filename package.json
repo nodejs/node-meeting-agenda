@@ -1,6 +1,6 @@
 {
   "name": "node-meeting-agenda",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Generate an agenda for a Node.js working group based on GitHub issue labels",
   "main": "node-meeting-agenda.js",
   "author": "Rod <rod@vagg.org> (http://r.va.gg/)",
@@ -12,7 +12,7 @@
     "map-async": "~0.1.1"
   },
   "bin": {
-    "node-meeting-agenda": "./node-meeting-agenda.js"
+    "node-meeting-agenda": "node-meeting-agenda.js"
   },
   "repository": {
     "type": "git",
