@@ -9,7 +9,7 @@
     "test": "standard"
   },
   "dependencies": {
-    "ghauth": "~3.2.0",
+    "ghauth": "^5.0.1",
     "ghissues": "~1.1.2",
     "ghrepos": "2.1",
     "map-async": "~0.1.1"
