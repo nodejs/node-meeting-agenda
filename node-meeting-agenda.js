@@ -31,7 +31,7 @@ ghauth(authOptions, (err, authData) => {
   ghrepos.listOrg(authData, org, { type: 'public' }, (err, repolist) => {
     if (err) { throw err }
 
-    const ra = repos.concat(repolist.map((r) => ({ org: org, repo: r.name })))
+    const ra = repos.concat(repolist.map((r) => ({ org, repo: r.name })))
     map(ra, fetchIssues, (err, repoLists) => {
       if (err) { throw err }
       printIssues(ra, repoLists)
